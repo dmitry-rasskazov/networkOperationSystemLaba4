@@ -30,7 +30,7 @@ force-reload|restart)
   ./main
 ;;
 *)
-  echo "Usage: /etc/init.d/networking {start|stop|restart|force-reload}"
+  echo "Usage: arguments {start|stop|restart|force-reload}"
   exit 1
 ;;
 esac
