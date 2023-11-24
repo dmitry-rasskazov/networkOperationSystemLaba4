@@ -29,6 +29,7 @@ force-reload|restart)
   cat $PROCESS_FILE_NAME | xargs -I {} kill {} || exit 1;
   ./main
 ;;
+
 *)
   echo "Usage: arguments {start|stop|restart|force-reload}"
   exit 1
